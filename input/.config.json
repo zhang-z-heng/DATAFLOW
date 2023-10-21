@@ -1,1 +1,31 @@
-
+{
+    "partitions": 1,
+    "input": "input.csv",
+    "operations": [
+        {
+            "operator": "reduce",
+            "function": "ADD",
+            "arg": 8
+        },
+        {
+            "operator": "reduce",
+            "function": "ADD",
+            "arg": 3
+        },
+        {
+            "operator": "changeKey",
+            "function": "ADD",
+            "arg": 4
+        },
+        {
+            "operator": "reduce",
+            "function": "ADD",
+            "arg": 9
+        },
+        {
+            "operator": "map",
+            "function": "ADD",
+            "arg": 6
+        }
+    ]
+}
